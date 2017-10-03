@@ -1,0 +1,107 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  font-family: "proxima_nova_rgregular", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #443133;
+  background-color: #ffa4aa;
+  /*-webkit-transition: background-color 1.5s ease;
+  -moz-transition: background-color 1.5s ease;
+  transition: background-color 1.5s ease;*/
+}
+.light-color {
+  color: #ffffff;
+}
+.blue-color {
+  color: #b86bda;
+}
+.orange-color {
+  color: #f2bb74;
+}
+.malina-font {
+  font-family: "als_malinaregular", Helvetica, sans-serif;
+}
+.hide {
+  display: none;
+}
+.invisible {
+  visibility: hidden;
+}
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+.txt-left {
+  text-align: left;
+}
+.txt-center {
+  text-align: center;
+}
+.txt-right {
+  text-align: right;
+}
+::-moz-selection{
+
+}
+::selection {
+
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.no-selection{
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+
+  text-decoration: none;
+}
+a:hover {
+
+  text-decoration: underline;
+}
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  padding: 14px 30px;
+  color: #3cb7c6;
+  text-decoration: none !important;
+  font-size: 20px;
+  line-height: 22px;
+  border-radius: 30px;
+  background: #ffffff;
+  -webkit-transition: background-color 0.4s ease, color 0.4s ease;
+  -moz-transition: background-color 0.4s ease, color 0.4s ease;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+.btn:hover {
+  color: #ffffff !important;
+  background-color: #e91e63;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 14px 26px -12px rgba(233, 30, 99, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(233, 30, 99, 0.2);
+}
+.extra-bold {
+  font-family: "proxima_nova_thextrabold", Helvetica, sans-serif;
+}
+.bold {
+  font-family: "proxima_nova_rgbold", Helvetica, sans-serif;
+}
